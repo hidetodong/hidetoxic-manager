@@ -6,8 +6,10 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  links: [{ rel: 'icon', href: '/img/hidetoxic_logo.png' }],
   layout: {
-    title: '@umijs/max',
+    title: 'HIDETOXIC管理后台',
+    layout: 'mix',
   },
   routes: [
     {
